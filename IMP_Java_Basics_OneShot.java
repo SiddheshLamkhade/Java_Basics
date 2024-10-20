@@ -2,7 +2,7 @@
 import java.util.*;
 class Student{}
 
-public class Java_Basics_OneShot
+public class IMP_Java_Basics_OneShot
 {
     public static void main(String[] args)
     {
