@@ -105,9 +105,6 @@ public class IMP_Java_Basics_OneShot
 
 
 
-    
-
-    
 
 
 
@@ -147,26 +144,6 @@ public class IMP_Java_Basics_OneShot
             }
             System.out.println( );
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

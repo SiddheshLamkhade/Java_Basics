@@ -1,18 +1,26 @@
 import java.util.*;
 class Find_Trailing_Zeroes_After_Calculating_Factorial
-{
+{    
     int fun(int n)
     {
-        
+      int res=0;
+      int powOf5 = 5;
+      while(n>=powOf5){
+        res=res+ n/powOf5;
+        powOf5 = powOf5 *5;
+      }
+      return res;
     }
 }
 public class DSATrailingZeroesInFactorial 
 {
-    public static void main(Strings[] args)
+    public static void main(String[] args)
     {
-        int number;
+      Scanner sc= new Scanner(System.in);
+        int number=sc.nextInt();
         Find_Trailing_Zeroes_After_Calculating_Factorial obj=new Find_Trailing_Zeroes_After_Calculating_Factorial();
-        obj.fun(number);
+        int answer=obj.fun(number);
+        System.out.println(answer);
     }
 }
 

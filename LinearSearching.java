@@ -1,10 +1,10 @@
 public class LinearSearching
 {
-    public static int linearSearch(int[] a,int key)
+    public static int linearSearch(int[] arr,int key)
     {
-        for(int i=0;i<a.length;i++)
+        for(int i=0;i<arr.length;i++)
         {
-            if(a[i]==key)
+            if(arr[i]==key)
             {
                 return i;
             }
